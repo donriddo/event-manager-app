@@ -1,3 +1,3 @@
-# INKREDO CHALLENGE - FRONEND
+# EVENT MANAGER APP
 
 Run `npm start` to start
