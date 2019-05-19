@@ -43,7 +43,7 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: env === 'production' ? 'https://donriddo-event-manager-api.herokuapp.com/api' : 'http://localhost:37000/api'
+            apiUrl: 'https://donriddo-event-manager-api.herokuapp.com/api'
         })
     }
 }
