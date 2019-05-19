@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "npm run build && ./dist/main.js",
+    "start": "./dist/main.js",
     "build": "webpack --mode production",
     "test": "jest"
   },
