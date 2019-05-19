@@ -36,6 +36,7 @@ export function event(state = { typeOfView: 'list' }, action) {
     case eventConstants.GETALL_FAILURE:
       return {
         ...state,
+        items: [],
         error: action.error
       };
     case eventConstants.GETEVENTS_REQUEST:
