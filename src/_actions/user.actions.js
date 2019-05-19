@@ -21,7 +21,7 @@ function login(email, password) {
                 user => { 
                     dispatch(success(user));
                     dispatch(alertActions.success('Login Successful'));
-                    history.push('/dashboard');
+                    history.push('/');
                 },
                 error => {
                     dispatch(failure(error.toString()));
