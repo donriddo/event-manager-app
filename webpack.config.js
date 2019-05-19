@@ -1,5 +1,7 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
+const env = process.env.NODE_ENV;
+
 module.exports = {
     mode: 'development',
     resolve: {
@@ -41,7 +43,7 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'http://localhost:37000/api'
+            apiUrl: env === 'production' ? 'https://donriddo-event-manager-api.herokuapp.com/api' : 'http://localhost:37000/api'
         })
     }
 }
