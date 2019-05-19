@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "node dist/main.js",
+    "start": "webpack-dev-server --open",
     "build-dev": "webpack --mode development ./src/index.jsx --output ./dist/main.js --config webpack.config.js",
     "build": "webpack --mode production ./src/index.jsx --output ./dist/main.js --config webpack.config.js",
     "test": "jest"
