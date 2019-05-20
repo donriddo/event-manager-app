@@ -179,30 +179,8 @@ class Dashboard extends React.Component {
                 </div>
                 
                 <div className="modal-body">
-                    
-                    <form name="form" onSubmit={this.handleUpdate.bind(this)} className="form-horizontal" role="form">
-                    <div className="form-group">
-                        <label  className="col-sm-2 control-label"
-                                htmlFor="title">Title</label>
-                        <div className="col-sm-10">
-                            <input value={this.state.edit.title} type="text" className="form-control" 
-                            id="title" name="title" placeholder="Title" onChange={this.handleEditChange.bind(this)}/>
-                        </div>
-                    </div>
-                    <div className="form-group">
-                        <label className="col-sm-2 control-label"
-                            htmlFor="draft" >Draft</label>
-                        <div className="col-sm-10">
-                            <textarea value={this.state.edit.draft} style={{ height: 150 }} className="form-control"
-                                id="draft" name="draft" placeholder="Type draft here..." onChange={this.handleEditChange.bind(this)}/>
-                        </div>
-                    </div>
-                    <div className="form-group">
-                        <div className="col-sm-offset-2 col-sm-10">
-                        <button className="btn btn-primary">Submit</button>
-                        </div>
-                    </div>
-                    </form>
+                    <p>Feature yet to be added...</p>
+                    <p>Please Check Back Later</p>
                 </div>
             </div>
         </div>
