@@ -1,9 +1,9 @@
 {
-  "name": "travel-planner",
+  "name": "event-manager-app",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/donriddo/travel-planner.git"
+    "url": "https://github.com/donriddo/event-manager-app.git"
   },
   "license": "MIT",
   "scripts": {
