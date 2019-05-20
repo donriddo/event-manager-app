@@ -1,4 +1,4 @@
-# EVENT MANAGER API P
+# EVENT MANAGER APP
 
 - Steps to run application
 1. Clone the project
